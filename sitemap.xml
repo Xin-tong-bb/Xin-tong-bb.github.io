@@ -2,14 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xin-tong-bb.github.io/post/hello-world.html</loc>
-    
-    <lastmod>2022-04-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xin-tong-bb.github.io/categories/index.html</loc>
+    <loc>http://xin-tong-bb.github.io/tags/index.html</loc>
     
     <lastmod>2022-04-08</lastmod>
     
@@ -23,7 +16,28 @@
   </url>
   
   <url>
-    <loc>http://xin-tong-bb.github.io/tags/index.html</loc>
+    <loc>http://xin-tong-bb.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-04-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xin-tong-bb.github.io/my/index.html</loc>
+    
+    <lastmod>2022-04-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xin-tong-bb.github.io/message-board/index.html</loc>
+    
+    <lastmod>2022-04-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xin-tong-bb.github.io/post/hello-world.html</loc>
     
     <lastmod>2022-04-08</lastmod>
     
