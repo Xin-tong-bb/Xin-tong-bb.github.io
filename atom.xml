@@ -6,37 +6,17 @@
   <link href="http://xin-tong-bb.github.io/atom.xml" rel="self"/>
   
   <link href="http://xin-tong-bb.github.io/"/>
-  <updated>2022-04-07T15:39:06.996Z</updated>
+  <updated>2022-04-08T12:08:58.039Z</updated>
   <id>http://xin-tong-bb.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://xin-tong-bb.github.io/post/%E5%BC%A0%E6%88%90%E7%A9%BA%E9%97%B4.html"/>
-    <id>http://xin-tong-bb.github.io/post/%E5%BC%A0%E6%88%90%E7%A9%BA%E9%97%B4.html</id>
-    <published>2021-11-07T03:44:24.257Z</published>
-    <updated>2022-04-07T15:39:06.996Z</updated>
-    
-    <content type="html"><![CDATA[<p>poverty 贫困、短缺the poverty of imaginationguilty 有罪的、内疚的The jury finds the prisoner guilty 陪审团裁定犯人有罪primary 最初的、首要的、初等的、小学的、原来的China is currently in the primary stage of socialism.vice 恶习、罪恶、缺点、代理、副职Virtue and vice are different.The vice president was the president’s successor.offender 得罪人的人；犯罪者；违法者He is always an offender on any occasion.The offender was finally arrested.罪犯终于被捕了afford 买得起、但付得起、有时间做、给予The police will afford protection.No country can afford to neglect education.任何国家都不容忽视教育。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;poverty 贫困、短缺the poverty of imaginationguilty 有罪的、内疚的The jury finds the prisoner guilty 陪审团裁定犯人有罪primary 最初的、首要的、初等的、小学的、原来的China is curr</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
     <link href="http://xin-tong-bb.github.io/post/hello-world.html"/>
     <id>http://xin-tong-bb.github.io/post/hello-world.html</id>
     <published>2021-10-28T03:22:52.893Z</published>
-    <updated>2021-10-28T03:22:52.893Z</updated>
+    <updated>2022-04-08T12:08:58.039Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -47,6 +27,8 @@
       
     
     
+    
+    <category term="Hello World" scheme="http://xin-tong-bb.github.io/categories/Hello-World/"/>
     
     
   </entry>
