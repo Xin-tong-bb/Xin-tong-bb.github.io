@@ -6,30 +6,56 @@
   <link href="http://xin-tong-bb.github.io/atom.xml" rel="self"/>
   
   <link href="http://xin-tong-bb.github.io/"/>
-  <updated>2022-04-08T12:08:58.039Z</updated>
+  <updated>2022-05-13T18:41:44.901Z</updated>
   <id>http://xin-tong-bb.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>区间间隔修改——并查集优化，根号分治</title>
+    <link href="http://xin-tong-bb.github.io/%E5%8C%BA%E9%97%B4%E9%97%B4%E9%9A%94%E4%BF%AE%E6%94%B9%E2%80%94%E2%80%94%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BC%98%E5%8C%96%EF%BC%8C%E6%A0%B9%E5%8F%B7%E5%88%86%E6%B2%BB"/>
+    <id>http://xin-tong-bb.github.io/%E5%8C%BA%E9%97%B4%E9%97%B4%E9%9A%94%E4%BF%AE%E6%94%B9%E2%80%94%E2%80%94%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BC%98%E5%8C%96%EF%BC%8C%E6%A0%B9%E5%8F%B7%E5%88%86%E6%B2%BB</id>
+    <published>2022-05-13T18:38:42.000Z</published>
+    <updated>2022-05-13T18:41:44.901Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="题意"><a href="#题意" class="headerlink" title="题意"></a>题意</h4><p>给定一个长度为n(n&lt;=10^5)的字符串，仅包含小写字母。</p><p>给出q次操作，每次操作给出一个四元组</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="水一水" scheme="http://xin-tong-bb.github.io/categories/%E6%B0%B4%E4%B8%80%E6%B0%B4/"/>
+    
+    
+    <category term="水文" scheme="http://xin-tong-bb.github.io/tags/%E6%B0%B4%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
     <link href="http://xin-tong-bb.github.io/post/hello-world.html"/>
     <id>http://xin-tong-bb.github.io/post/hello-world.html</id>
     <published>2021-10-28T03:22:52.893Z</published>
-    <updated>2022-04-08T12:08:58.039Z</updated>
+    <updated>2022-05-13T00:56:32.652Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
       
     
     
     
-    <category term="Hello World" scheme="http://xin-tong-bb.github.io/categories/Hello-World/"/>
+    <category term="Hexo手册" scheme="http://xin-tong-bb.github.io/categories/Hexo%E6%89%8B%E5%86%8C/"/>
     
+    
+    <category term="Hexo" scheme="http://xin-tong-bb.github.io/tags/Hexo/"/>
     
   </entry>
   
