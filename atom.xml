@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Master elder brother&#39;s的博客</title>
+  
+  <subtitle>Master elder brother</subtitle>
+  <link href="http://xin-tong-bb.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://xin-tong-bb.github.io/"/>
+  <updated>2022-10-25T19:26:27.541Z</updated>
+  <id>http://xin-tong-bb.github.io/</id>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>拉格朗日中值定理</title>
+    <link href="http://xin-tong-bb.github.io/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86"/>
+    <id>http://xin-tong-bb.github.io/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86</id>
+    <published>2022-10-25T19:19:27.000Z</published>
+    <updated>2022-10-25T19:26:27.541Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>shell命令</title>
+    <link href="http://xin-tong-bb.github.io/shell%E5%91%BD%E4%BB%A4"/>
+    <id>http://xin-tong-bb.github.io/shell%E5%91%BD%E4%BB%A4</id>
+    <published>2022-10-19T03:36:07.000Z</published>
+    <updated>2022-10-19T03:43:42.535Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="常用的脚本命令"><a href="#常用的脚本命令" class="headerlink" title="常用的脚本命令"></a>常用的脚本命令</h2><h3 id="打印显示。"><a href="#打印显示。" class="headerlink" title="打印显示。"></a>打印显示。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 格式：echo <span class="token punctuation">[</span>文本<span class="token punctuation">]</span><span class="token builtin class-name">echo</span> 你好<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="检查本机与外界是否连接状态。"><a href="#检查本机与外界是否连接状态。" class="headerlink" title="检查本机与外界是否连接状态。"></a>检查本机与外界是否连接状态。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 格式：ping <span class="token punctuation">[</span>ip地址/域名<span class="token punctuation">]</span><span class="token function">ping</span> <span class="token number">192.168</span>.0.102<span class="token function">ping</span> baidu.com<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="检查主机经过路由节点与网络延时情况。"><a href="#检查主机经过路由节点与网络延时情况。" class="headerlink" title="检查主机经过路由节点与网络延时情况。"></a>检查主机经过路由节点与网络延时情况。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 格式：tracert <span class="token punctuation">[</span>选项<span class="token punctuation">]</span> <span class="token punctuation">[</span>ip地址/域名<span class="token punctuation">]</span> tracert -d baidu.com<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="解决本机端口占用问题。"><a href="#解决本机端口占用问题。" class="headerlink" title="解决本机端口占用问题。"></a>解决本机端口占用问题。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 查看端口号   :: 格式：netstat <span class="token function">netstat</span> –ano<span class="token operator">|</span>findstr <span class="token punctuation">[</span>端口号<span class="token punctuation">]</span><span class="token function">netstat</span> <span class="token function">netstat</span> –ano<span class="token operator">|</span>findstr <span class="token number">80</span>  :: 关闭端口号上的PID   :: 格式：taskkill /pid <span class="token punctuation">[</span>pid号<span class="token punctuation">]</span> -t -ftaskkill /pid <span class="token number">2314</span> -t -f<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="查看本地的ip地址。"><a href="#查看本地的ip地址。" class="headerlink" title="查看本地的ip地址。"></a>查看本地的ip地址。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 查看本地ip配置。 ipconfig<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="解决访问网页缓慢或错误页面。"><a href="#解决访问网页缓慢或错误页面。" class="headerlink" title="解决访问网页缓慢或错误页面。"></a>解决访问网页缓慢或错误页面。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 更新DNS缓存 ipconfig /flushdns<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="检查DNS是否正常。"><a href="#检查DNS是否正常。" class="headerlink" title="检查DNS是否正常。"></a>检查DNS是否正常。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 查询DNS域名和IP地址 :: 格式：nslookup <span class="token punctuation">[</span>域名<span class="token punctuation">]</span> <span class="token punctuation">[</span>dns服务器<span class="token punctuation">]</span>（可选）<span class="token function">nslookup</span> <span class="token number">163</span>.com <span class="token function">nslookup</span> <span class="token number">163</span>.com <span class="token number">8.8</span>.8.8<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h3 id="目录操作。"><a href="#目录操作。" class="headerlink" title="目录操作。"></a>目录操作。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 切换目录  :: 格式：<span class="token punctuation">[</span>盘名<span class="token punctuation">]</span>:D::: 返回上一级目录 <span class="token builtin class-name">cd</span> <span class="token punctuation">..</span>:: 进入某个目录 :: <span class="token builtin class-name">cd</span> <span class="token punctuation">[</span>目录名<span class="token punctuation">]</span><span class="token builtin class-name">cd</span> folder<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="文件-文件夹重命名。"><a href="#文件-文件夹重命名。" class="headerlink" title="文件/文件夹重命名。"></a>文件/文件夹重命名。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 格式：ren [路径][原文件/文件夹名] [新文件/文件夹名]:: 格式：rename [路径][原文件/文件夹名] [新文件/文件夹名]ren .\text docsrename .\text docs<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h3 id="文件-文件夹复制。"><a href="#文件-文件夹复制。" class="headerlink" title="文件/文件夹复制。"></a>文件/文件夹复制。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 格式：xcopy [路径][原文件/文件夹名] [新文件/文件夹名]xcopy .\text .\docs<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="文件-文件夹移除。"><a href="#文件-文件夹移除。" class="headerlink" title="文件/文件夹移除。"></a>文件/文件夹移除。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 格式：rd <span class="token punctuation">[</span>路径<span class="token punctuation">]</span><span class="token punctuation">[</span>原文件/文件夹名<span class="token punctuation">]</span> <span class="token punctuation">[</span>新文件/文件夹名<span class="token punctuation">]</span> <span class="token punctuation">[</span>选项<span class="token punctuation">]</span>（可选）:: 格式：rmdir <span class="token punctuation">[</span>路径<span class="token punctuation">]</span><span class="token punctuation">[</span>原文件/文件夹名<span class="token punctuation">]</span> <span class="token punctuation">[</span>新文件/文件夹名<span class="token punctuation">]</span> <span class="token punctuation">[</span>选项<span class="token punctuation">]</span>（可选） rd .<span class="token punctuation">\</span>text .<span class="token punctuation">\</span>docs /s/q<span class="token function">rmdir</span> .<span class="token punctuation">\</span>text .<span class="token punctuation">\</span>docs /s/q<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h3 id="查找文本。"><a href="#查找文本。" class="headerlink" title="查找文本。"></a>查找文本。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 格式：find [选项]（可选） [是否跳过脱机属性文件]（可选） [关键字] [路径][原文件/文件夹名]find "日期" 我的文件.doc<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="导出目录结构图。"><a href="#导出目录结构图。" class="headerlink" title="导出目录结构图。"></a>导出目录结构图。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:: 查看目录结构tree:: 导出目录结构    :: 格式：tree /f <span class="token punctuation">[</span>文件名<span class="token punctuation">]</span>tree /f<span class="token operator">></span>folderTree.txt<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="列出所有文件夹。"><a href="#列出所有文件夹。" class="headerlink" title="列出所有文件夹。"></a>列出所有文件夹。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 查看当前所有文件dir:: 查看指定路径下文件类型是zip的文件:: 格式：dir [路径][文件名]（可选）[选项]（可选）dir d:\*.zip /b<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="打开“控制面板”。"><a href="#打开“控制面板”。" class="headerlink" title="打开“控制面板”。"></a>打开“控制面板”。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 打开“控制面板”control<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="打开host文件。"><a href="#打开host文件。" class="headerlink" title="打开host文件。"></a>打开host文件。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 使用记事本打开host   :: 格式：notepad [文件路径]notepad "%systemroot%/system32/drivers/etc/hosts"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="打开“服务“。"><a href="#打开“服务“。" class="headerlink" title="打开“服务“。"></a>打开“服务“。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 打开“服务”services.msc<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="打开“注册表”。"><a href="#打开“注册表”。" class="headerlink" title="打开“注册表”。"></a>打开“注册表”。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 打开“注册表”regedit<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="清除所有控制台的信息。"><a href="#清除所有控制台的信息。" class="headerlink" title="清除所有控制台的信息。"></a>清除所有控制台的信息。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 清除所有cmd信息cls<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="打开远程桌面。"><a href="#打开远程桌面。" class="headerlink" title="打开远程桌面。"></a>打开远程桌面。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 快速打开远程桌面mstsc<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><hr><h2 id="常用脚本片段"><a href="#常用脚本片段" class="headerlink" title="常用脚本片段"></a>常用脚本片段</h2><h3 id="判断文件-文件夹是否存在。"><a href="#判断文件-文件夹是否存在。" class="headerlink" title="判断文件/文件夹是否存在。"></a>判断文件/文件夹是否存在。</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token keyword">if</span> not exist .<span class="token punctuation">\</span>text <span class="token punctuation">(</span>  <span class="token builtin class-name">echo</span> text文件已存在。<span class="token punctuation">)</span> <span class="token keyword">else</span> <span class="token punctuation">(</span>  <span class="token builtin class-name">echo</span> text文件不存在。<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="设置值。"><a href="#设置值。" class="headerlink" title="设置值。"></a>设置值。</h3><pre class="line-numbers language-text" data-language="text"><code class="language-text">:: 格式：set [变量]=[值（字符串）]:: 格式：set /p [变量]=[提示语]set filetype=txtset /p selOptions=请输入选项：1.build 并打包自动上传。 2.退出。:: 设置环境变量set PATH=C:\Program Files\java\jdk1.8.0_91<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="shell" scheme="http://xin-tong-bb.github.io/categories/shell/"/>
+    
+    
+    <category term="shell" scheme="http://xin-tong-bb.github.io/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浏览器访问www.baidu.com服务器资源时发生的过程</title>
+    <link href="http://xin-tong-bb.github.io/%E7%BB%83%E4%B8%80%E7%BB%83"/>
+    <id>http://xin-tong-bb.github.io/%E7%BB%83%E4%B8%80%E7%BB%83</id>
+    <published>2022-10-18T16:57:12.000Z</published>
+    <updated>2022-10-25T13:56:35.182Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h5 id="问题：描述浏览器访问www-baidu-com服务器资源时发生的过程"><a href="#问题：描述浏览器访问www-baidu-com服务器资源时发生的过程" class="headerlink" title="问题：描述浏览器访问www.baidu.com服务器资源时发生的过程"></a>问题：描述浏览器访问<a href="http://www.baidu.com服务器资源时发生的过程/">www.baidu.com服务器资源时发生的过程</a></h5><h3 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h3><h4 id="1-DNS查询到IP地址"><a href="#1-DNS查询到IP地址" class="headerlink" title="1.DNS查询到IP地址"></a>1.DNS查询到IP地址</h4><p><a href="https://imgse.com/i/xsleR1"><img src="https://s1.ax1x.com/2022/10/19/xsleR1.png" alt="xsleR1.png"></a></p><h3 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h3><h4 id="2-ARP查询到MAC地址"><a href="#2-ARP查询到MAC地址" class="headerlink" title="2.ARP查询到MAC地址"></a>2.ARP查询到MAC地址</h4><p>本机arp缓存</p><p>广播arp请求分组，</p><h3 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h3><h4 id="3-主机与服务器建立TCP连接"><a href="#3-主机与服务器建立TCP连接" class="headerlink" title="3.主机与服务器建立TCP连接"></a>3.主机与服务器建立TCP连接</h4><h3 id="步骤四"><a href="#步骤四" class="headerlink" title="步骤四"></a>步骤四</h3><h4 id="4-主机发送HTTP协议请求，服务器响应请求"><a href="#4-主机发送HTTP协议请求，服务器响应请求" class="headerlink" title="4.主机发送HTTP协议请求，服务器响应请求"></a>4.主机发送HTTP协议请求，服务器响应请求</h4><h3 id="具体过程"><a href="#具体过程" class="headerlink" title="具体过程"></a>具体过程</h3><p>输入域名后的路由转发过程</p><p>1.DNS：域名-&gt;IP地址</p><p>2.ARP：IP地址-&gt;MAC地址</p><p>3.判断是否在同一网段<!--(IP地址&子网掩码)-->：</p><p>(3.1是：看ARP缓存中是否有其MAC地址</p><p>——————&gt;(3.1.1<u>是：直接封装成帧</u>  </p><p> 3.1.2否：广播ARP请求分组<!--(MAC目的地址为全F)--></p><p>——————&gt;单播响应ARP分组，并返回对应的MAC地址</p><p>——————&gt;封装成帧)</p><p>)</p><p>(3.2否：看有没有默认网关</p><p>(3.2.1是：看ARP缓存中是否有默认网关对应的MAC地址</p><p>——————&gt;(3.2.1.1是：直接封装成帧  </p><p>3.2.1.2<strong>否：广播ARP请求分组</strong></p><p><strong>——————&gt;默认网关响应ARP分组，并返回MAC地址</strong></p><p><strong>——————&gt;封装成帧</strong>)</p><p>3.2.2否：丢弃，不可达)))</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="练一练" scheme="http://xin-tong-bb.github.io/categories/%E7%BB%83%E4%B8%80%E7%BB%83/"/>
+    
+    
+    <category term="练一练" scheme="http://xin-tong-bb.github.io/tags/%E7%BB%83%E4%B8%80%E7%BB%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于未来</title>
+    <link href="http://xin-tong-bb.github.io/post/%E9%9A%8F%E7%AC%94.html"/>
+    <id>http://xin-tong-bb.github.io/post/%E9%9A%8F%E7%AC%94.html</id>
+    <published>2022-10-13T18:38:42.000Z</published>
+    <updated>2022-10-22T04:00:43.139Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="随便写写"><a href="#随便写写" class="headerlink" title="随便写写"></a>随便写写</h4><p>好吧，写了个寂寞。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="http://xin-tong-bb.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="http://xin-tong-bb.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://xin-tong-bb.github.io/post/hello-world.html"/>
+    <id>http://xin-tong-bb.github.io/post/hello-world.html</id>
+    <published>2021-10-28T03:22:52.893Z</published>
+    <updated>2022-10-19T03:44:39.893Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Hexo手册" scheme="http://xin-tong-bb.github.io/categories/Hexo%E6%89%8B%E5%86%8C/"/>
+    
+    
+    <category term="Hexo" scheme="http://xin-tong-bb.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
