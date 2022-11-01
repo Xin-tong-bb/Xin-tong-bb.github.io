@@ -81,7 +81,6 @@
 }
 
 
-
 .aplayer.aplayer-fixed .aplayer-list {
 	margin-bottom: 65px;
 	border: 1px solid #eee;
@@ -667,14 +666,14 @@
 	fill: #000
 }
 
-.aplayer.aplayer-withlist.aplayer-fixed.aplayer-narrow,
-.aplayer.aplayer-withlist.aplayer-fixed.aplayer-narrow .aplayer-body {
+
+.aplayer.aplayer-narrow .aplayer-body {
     left: -66px !important;
 }
-
-.aplayer.aplayer-withlist.aplayer-fixed.aplayer-narrow:hover .aplayer-body {
-    left: 0 !important;
+.aplayer-body:hover {
+    left: 0px !important
 }
+
 
 @-webkit-keyframes aplayer-roll {
 	0% {
